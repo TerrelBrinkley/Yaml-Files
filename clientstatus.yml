@@ -1,7 +1,7 @@
 ---
 - name: "Check remote clients connectivity"
-hosts: all
+  hosts: all
 
-tasks:
-  - name: Test Connectivity
-    ping:
+  tasks:
+    - name: Test Connectivity
+      ping:
