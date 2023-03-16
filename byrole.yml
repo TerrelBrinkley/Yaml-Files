@@ -2,9 +2,9 @@
 - name: Full install
   hosts: all
   roles:
-  - fullinstall
+    - fullinstall
 
 - name: Basic install
   hosts: localhosts
   roles:
-  - basicinstall
+    - basicinstall

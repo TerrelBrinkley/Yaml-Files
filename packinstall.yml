@@ -3,12 +3,12 @@
   hosts: localhost
 
   tasks:
-  - name: Install apache
-    yum:
-     name: httpd
-     state: present
+    - name: Install apache
+      yum:
+        name: httpd
+        state: present
 
-  - name: start httpd
-    service:
-     name: httpd
-     state: started
+    - name: start httpd
+      service:
+        name: httpd
+        state: started

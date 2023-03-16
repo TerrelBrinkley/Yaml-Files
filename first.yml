@@ -3,5 +3,5 @@
   hosts: localhost
 
   tasks:
-  - name: “test connectivity”
-    ping:
+    - name: “test connectivity”
+      ping:
